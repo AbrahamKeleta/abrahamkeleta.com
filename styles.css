@@ -1,24 +1,74 @@
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    box-shadow: 0 -4px 6px rgb(0 0 0 / 16%), 0 0 6px rgb(0 0 0 / 10%);
-    width: 100%;    
+
+
+
+
+
+body {
+    font-family: "Roboto";
 }
 
-.navigation-tabs {
-    display: flex;
-    padding: 2em 4em;
-    border-top: 1px solid gainsboro;
-    justify-content: space-between;
-    margin: 0;
-    background-color: #59595A;
+.container {
+    margin: auto;
+    margin-top: 15%;
+}
+
+.header {
+    text-align: center;
+}
+
+.headshot {
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+.intro {
+    letter-spacing: .4px;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.more-details {
+    letter-spacing: .4px;
+    font-size: 17px;
+}
+
+.body {
+    text-align: center;
 }
 
 .nav-link {
-    display: inline-block;
-    font-size: 18px;
-    letter-spacing: .03em;
-    color: white;
     list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+}
+
+.topic {
+    display: inline-block;
+    padding: 40px;
+    border: 1px solid gainsboro;
+    width: 200px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.url {
+    display: inline-block;
+    margin: 5px;
+    color: #1F74F2;
+    text-decoration: none;
+    letter-spacing: .9px;
+    font-size: 15px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: gainsboro;
+    font-size: 13px;
 }
