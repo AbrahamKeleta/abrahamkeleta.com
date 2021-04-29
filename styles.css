@@ -41,6 +41,10 @@ body {
     text-align: center;
 }
 
+ul {
+    padding: 0; 
+}
+
 .nav-link {
     list-style-type: none;
     display: inline-block;
@@ -72,3 +76,13 @@ body {
     color: gainsboro;
     font-size: 13px;
 }
+
+
+
+/* For smaller devices */
+
+/* @media only screen and (max-width: 600px) {
+    .nav-link {
+        padding: 30px 0;
+    }
+  } */
